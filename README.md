@@ -41,4 +41,15 @@ Users of this forum can create an acount and log in from any computer, subscribe
 The WCI forum was mainly about practicing inter-proccess communication, or more basiclly, implementing a sever-client program.
 Based on a TCP protocol, the server has 2 diiferent types of work (design patterns) - one is as a thread per client server, and the other one is as a Reactor based server.
 The application layer protocol we used is Simple Text Oriented Messaging Protocol (STOMP - stomp.github.io) and the programming languages we used are- Java for the server code and C++ for the client code.
-Much of our focus when designing the server was to implement it Modular, that so most changes in the application will not cause changes in the implemtation of the basic server, and also using a different messaging protocol should cause minimal changes.
+Much of our focus when designing the server was to implement it Modular, that so most changes in the application will not cause changes in the implemtation of the basic server, and also using a different messaging protocol should cause minimal change.
+
+# 4. BGU Mart
+A program that manages supermarket chains. The software supports managing a large number of employees and the buying/selling of products.
+It also manages the inventory and thus contact various suppliers.
+Sells and deliveries of products are also being registered and logged.
+
+# practice goals:
+With creating this program we wanted to learn and practice managing a database using SQL with sqlite3 libary in python.
+Again much of our work has been about making this code modular, and we made that happen using the persistance layer design pattern.
+This pattern is ment for separating the logics of the program from the actions performed on the db, and is done by creating a data type that represents a record in a certain table, and a generic data type for a table, with methods such as insert, find, delete and update.
+In this way we could perform actions on the data base without writing a SQL query for each action, and make the code more clean, modular and readable.
