@@ -1,4 +1,4 @@
-# System-Programming-course-projects
+# System-Programming-projects
 four projects done as part of my CS studies in BGU.
 The projects are:
 1. Coalition Race.
